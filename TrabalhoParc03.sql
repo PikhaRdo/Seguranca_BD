@@ -75,7 +75,6 @@ desc usuario;
 
 
 -- tabela de emprestimo
-drop table empretismo;
 create table emprestimo(
     id int UNSIGNED not null PRIMARY KEY,
     id_usuario MEDIUMINT UNSIGNED not null,
