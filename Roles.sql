@@ -70,4 +70,3 @@ show grants for patricia@'%';
 
 -- selecionar uma role
 -- set role administrador;
-\! echo "teste";
