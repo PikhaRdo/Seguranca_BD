@@ -3,7 +3,7 @@ drop database if exists fatec;
 
 -- Cria um banco de dados
 create database fatec;
-show DATABASES;
+show DATABASES; 
 
 -- Seleciona a base de dados
 use fatec;

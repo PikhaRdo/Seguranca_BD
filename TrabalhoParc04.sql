@@ -26,12 +26,13 @@ create table consultas(
 desc consultas;
 
 --criação dos usuarios;
+
 create USER ana@localhost IDENTIFIED  by '12345678';
 create user bruno@localhost IDENTIFIED by '12345678';
 create user paulo@localhost IDENTIFIED by '12345678';
 
 --atribuições de permissões;
-grant all PRIVILEGES on petshop to paulo@localhost with grant option;
+/* grant all PRIVILEGES on petshop to paulo@localhost with grant option;
 
 --permissões bruno
 grant insert,update,select on petshop.animais to bruno@localhost;
@@ -41,6 +42,6 @@ grant insert,select on petshop.consultas to bruno@localhost;
 --permissões Ana
 grant insert,update,select on petshop.animais to ana@localhost;
 grant insert,update,select on petshop.veterinarios to ana@localhost;
-grant insert,select on petshop.consultas to ana@localhost;
+grant insert,select on petshop.consultas to ana@localhost; */
 
 
