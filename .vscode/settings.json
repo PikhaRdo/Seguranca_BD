@@ -12,6 +12,20 @@
             "name": "Server local",
             "username": "root",
             "database": "mysql"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "10.0.40.82",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "SQL_ubuntu",
+            "database": "mysql",
+            "username": "ricardo"
         }
     ]
 }
