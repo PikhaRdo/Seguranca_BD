@@ -1,3 +1,4 @@
+-- Active: 1755785707835@@127.0.0.1@3306@mysql
 create DATABASE if NOT EXISTS petshop;
 USE petshop;
 
